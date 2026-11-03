@@ -1,0 +1,17 @@
+name: Bug or Correction
+description: Report a bug, suboptimal complexity, or typo in a solution
+labels: ["bug"]
+body:
+  - type: input
+    id: problem_dir
+    attributes:
+      label: Problem Directory
+      placeholder: e.g. level-1/01-two-sum
+    validations:
+      required: true
+  - type: textarea
+    id: details
+    attributes:
+      label: Description of the Issue
+    validations:
+      required: true

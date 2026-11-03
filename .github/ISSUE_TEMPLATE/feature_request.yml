@@ -1,0 +1,17 @@
+name: Add Problem / Solution
+description: Propose adding a new problem or alternative approach
+labels: ["enhancement"]
+body:
+  - type: input
+    id: problem_name
+    attributes:
+      label: Problem Name & Source
+      placeholder: e.g. Valid Parentheses (LeetCode 20)
+    validations:
+      required: true
+  - type: textarea
+    id: complexity
+    attributes:
+      label: Time & Space Complexity
+    validations:
+      required: true
